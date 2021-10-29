@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+/***********************************/
+/* Header */
+header {
+    background-color: #E579E6;
+    height: 70px;
+    margin-bottom: 20px;
+}
+/* / Header */
+
+/* Main */
+main {
+    height: 330px;
+    background-color: #E1D67A;
+    margin-bottom: 20px;
+}
+/* / Main */
