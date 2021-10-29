@@ -10,6 +10,11 @@
     padding: 15px 0;
 }
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /***********************************/
 /* Header */
 header {
@@ -26,3 +31,33 @@ main {
     margin-bottom: 20px;
 }
 /* / Main */
+
+/* Content box */
+.content-box {
+    background-color: #0086FF;
+}
+
+.content-header {
+    background-color: #ABCFE7;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.content {
+    background-color: #ABCFE7;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.side {
+    float: left;
+    width: 20%;
+}
+
+.main {
+    float: left;
+    width: calc(60% - 20px);
+    margin: 0 10px;
+}
+
+/* / Content box */
