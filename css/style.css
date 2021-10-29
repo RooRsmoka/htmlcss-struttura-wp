@@ -61,3 +61,11 @@ main {
 }
 
 /* / Content box */
+
+/* Footer */
+footer {
+    margin-top: 10px;
+    background-color: #8801FE;
+    height: 40px;
+}
+/* / Footer */
